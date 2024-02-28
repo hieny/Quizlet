@@ -1,0 +1,1 @@
+export const IMPORT_COURSE_REDUX = "import_course_redux"
