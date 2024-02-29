@@ -65,7 +65,6 @@ export default function Sources() {
       });
     }
   };
-  console.log("sources", source);
 
   const upDateSources = (
     id: number,

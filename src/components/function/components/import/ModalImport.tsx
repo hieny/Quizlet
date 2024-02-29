@@ -9,7 +9,6 @@ export default function ModalImport({ id }: { id: string }) {
   const [previewCourse, setPreviewCourse] = useState<SourcesType[]>();
   const dispatch = useDispatch();
   const handleOnChange = (e: ChangeEvent<HTMLTextAreaElement>) => {
-    // console.log(e.target.value);
     const value = e.target.value;
 
     const result: SourcesType[] = value

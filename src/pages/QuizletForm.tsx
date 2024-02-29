@@ -39,7 +39,6 @@ export default function QuizletForm() {
       sources: quizSource,
     }));
   };
-  console.log("quizValue", quizValue);
 
   const openModal = () => {
     const modal = document.getElementById(

@@ -3,10 +3,10 @@ import QuizletForm from "./pages/QuizletForm";
 
 function App() {
   return (
-    <>
+    <div>
       <Header />
       <QuizletForm />
-    </>
+    </div>
   );
 }
 
