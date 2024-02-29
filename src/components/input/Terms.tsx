@@ -1,4 +1,4 @@
-import React, { ChangeEvent, useContext } from "react";
+import { ChangeEvent, useContext } from "react";
 import { SourceContext } from "../sources/Sources";
 import { TermAndDefContext } from "../sources/TermAndDef";
 
